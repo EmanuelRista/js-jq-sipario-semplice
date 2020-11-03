@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tenda {
+  height: calc(100vh - 100px);
+  width: 100%;
+  background-color: red;
+}
+.rifiniture {
+  display: flex;
+  width: 100%;
+}
+.rifinitura {
+  height: 100px;
+  flex: 1 0 auto;
+  background-color: red;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.toggle_btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index:-1;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
